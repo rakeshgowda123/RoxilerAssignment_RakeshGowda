@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 
-const API_BASE_URL ='https://roxilerassignment-rakeshgowda.onrender.com';
+
+const API_BASE_URL = 'http://roxilerassignment-rakeshgowda.onrender.com/api';
+
 
 
 export interface Transaction {
