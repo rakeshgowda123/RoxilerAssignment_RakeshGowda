@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "start": "node server/index.js",
-    "build": "cd src && npm install && npm run build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
