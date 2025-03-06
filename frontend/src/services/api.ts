@@ -9,13 +9,14 @@ import axios from 'axios';
 
 
 const API_URL = import.meta.env.VITE_API_URL;
-// const API_BASE_URL = 'https://localhost:5000/api';
+const API_BASE_URL = `${API_URL}/api`;
+
 // // const API_BASE_URL ='roxiler-assignment-rakesh-gowda.vercel.app';
 
-export const API_BASE_URL = async () => {
-  const response = await fetch(`${API_URL}/api`);
-  return response.json();
-};
+// export const API_BASE_URL = async () => {
+//   const response = await fetch(`${API_URL}/api`);
+//   return response.json();
+// };
 
 export interface Transaction {
   id: string;
